@@ -1,0 +1,395 @@
+html, body {
+  font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+  height: 100%;
+  margin: 0;
+  padding-top: 0;
+  /* max-width: 100% !important; */
+}
+
+
+h1, h2, h3, .name {
+  font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
+
+.banner {
+  display: flex;
+  min-width: 960px; 
+  margin: 0 auto;
+}
+
+
+.name {
+  background-color: #4AAAA5;
+  color: white;
+  height: 44px;
+  width: 230px;
+    /* display: flex; */
+  position: absolute;
+    /* justify-content: center; */
+    /* align-items: center; */
+  margin-left: 163px;
+  font-size: 1.98em;
+  padding-left: 21px;
+  padding-right: 10px;
+  padding: 9px 10px 0 21px;
+}
+
+
+.index {
+  display: flex;
+  color: #c6c6c6;
+  margin-left: 450px;
+  margin-top: 35px;
+}
+
+
+.banner a {
+  text-decoration: none;
+  color: #c6c6c6;
+  padding: 0 9px;
+}
+
+
+.banner a:hover { 
+  color: gray;
+}
+
+
+.buttonDiv a:hover {
+  color: white;
+  background-color: #6be4de;
+  font-size: 130%;
+}
+
+
+.contentCanvas {
+  display: flex;
+  background-image: url("../images/cork-wallet2.png");
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 5px solid #4AAAA5;
+  /* width: 960px; */
+  box-sizing: border-box;
+  /* justify-content: space-around; */
+  padding: 45px 0 54px 91px;
+}
+
+
+
+
+.aboutMe, .portfolio {
+  color: #4AAAA5;
+  width: 650px;
+  margin-left: 73px;
+  background-color: white;
+  margin-right: 40px;
+  padding-left: 0;
+}
+
+
+.aboutMe .text {
+  line-height: 2;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  color: blue;
+}
+
+
+label {
+  display: inline-block;
+  padding-top: 15px;
+  color: #aba9a9;
+  font-family: "Arial", 'Helvetica Neue', "Helvetica", "sans-serif";
+}
+
+
+textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+
+
+#name, #email, #msg {
+  /* width: 100%; */
+  padding: 8px;
+  /* box-sizing: border-box; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ABA9A9;
+}
+
+
+.contactClass {
+  height: 540px;
+}
+
+
+.buttonDiv {
+  flex: 1;
+}
+
+
+.button {
+  color: white;
+  background-color: #4AAAA5;
+  font-size: 20px;
+  padding: 6px 15px;
+  text-decoration: none;
+  border-radius: 4px;  
+  margin-left: 20px;
+}
+
+
+form {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.fixed-size-container {
+    display: flex;
+    position: relative;
+    padding-top: 20px;
+    background: white;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.fixed-size {
+    position: relative;
+    height: 208px;
+    width: 274px;
+    margin: 0px 15px 0 15px;
+}
+
+
+.image6 {
+  visibility: hidden;
+}
+
+
+hr { 
+    display: block;
+    border-style: solid;
+    border-width: .13em;
+    color: #DDDDDD;
+    width: 88%;
+}
+
+
+.connect {
+    color: #4AAAA5;
+    width: 230px;
+    background-color: white;
+    height: 166px;
+    margin-right: 117px;
+}
+
+
+.connect h3 {
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+
+.icons img {
+  width: 52px;
+}
+
+.icons:active {
+    padding: 3px 2px 3px 2px;
+}
+
+
+.socialButtons {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+footer {
+  clear: both;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  height: 54px;
+  padding-top: 27px;
+  font-size: 10px;
+}
+
+
+.bioText {
+  margin-left: 30px;
+  line-height: 2;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-top: 1px;
+}
+
+
+img.facePic, h1 {
+  padding-left: 30px;
+}
+
+
+p.text2 {
+  padding-top: 10px;
+}
+
+
+.aboutMe img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+
+.absolute {
+  position: relative;
+  width: 274px;
+  height: 46px;
+  background-color: #4AAAA5;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  bottom: 54px;
+}
+
+/* For mobile phones: */
+
+/*[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+/*    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+/*    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+*/
+
+
+
+@media screen and (max-width: 768px) {
+  body 
+
+  .contentCanvas {
+    display: block;
+    border-left: none;
+    padding: 20px 30px 0px 30px;
+    height: 700px;
+  }
+  
+  .aboutMe {
+    width: 100%;
+    margin: 0 auto 20px 0;
+    /* margin:  auto; */
+    /* float: left; */
+    padding: 8px 0;
+  }
+
+
+  .name {
+    margin-left: 30px;
+  }
+
+  .connect {
+    /* clear: both; */
+    width: 100%;
+    float: left;
+    /* text-align: left; */
+    /* align-content: center; */
+    }
+}
+
+@media screen and (max-width: 640px) {
+  body { background-color: pink; }
+
+  .banner {
+    display: block;
+  }
+
+  .name {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    top: 0;
+  }
+
+  .index {
+    width: 100%
+  }
+
+  .aboutMe {
+    width: 100%;
+  }
+
+  .aboutMe img {
+    /* float: left; */
+    width: 85%;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 0 px 0 20px;
+    margin-left: 7px;
+}
+
+  .contentCanvas { 
+    height: 1200px;
+   } 
+
+  .banner {
+    display: flex;
+    min-width: 980px;
+    margin: 0 auto;
+}
+}
+
