@@ -43,6 +43,10 @@ h1, h2, h3, .name {
   margin-top: 35px;
 }
 
+  .index640 {
+  display: none;
+  }
+
 
 .banner a {
   text-decoration: none;
@@ -341,6 +345,11 @@ p.text2 {
     margin-left: 30px;
   }
 
+  .connect h3 {
+    text-align: left;
+    padding-left: 35px;
+  }
+
   .connect {
     /* clear: both; */
     width: 100%;
@@ -348,6 +357,14 @@ p.text2 {
     /* text-align: left; */
     /* align-content: center; */
     }
+
+    .socialButtons {
+    justify-content: flex-start;
+}
+
+  .icons {
+    padding: 0 3px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -365,7 +382,7 @@ p.text2 {
   }
 
   .index {
-    width: 100%
+    display: none;
   }
 
   .aboutMe {
@@ -390,6 +407,24 @@ p.text2 {
     display: flex;
     min-width: 980px;
     margin: 0 auto;
+  }
+
+  .index640 {
+     display: flex;
+    /* background-color: gray; */
+    margin-top: 52px;
+    height: 40px;
+    width: 100%;
+    justify-content: space-around;
+    /* text-decoration: none; */
 }
+
+.index640 a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
 }
 
