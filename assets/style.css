@@ -165,12 +165,13 @@ form {
 
 
 .fixed-size-container {
-    display: flex;
+    display: block;
     position: relative;
     padding-top: 20px;
     background: white;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 
@@ -327,8 +328,8 @@ p.text2 {
    
 
   .fixed-size-container {
-    justify-content: flex-start;
-    height: 1250px;
+    /* justify-content: flex-start; */
+    /* height: 1250px; */
   }
 
 
@@ -395,10 +396,10 @@ p.text2 {
     padding: 0 3px;
   }
 
- .connectPortfolio {
+/* .connectPortfolio {
   width: auto;
   height: auto;
- } 
+ } */
 }
 
 @media screen and (max-width: 640px) {
@@ -410,6 +411,11 @@ p.text2 {
   .banner {
     display: block;
   }
+
+.connectPortfolio {
+  display: block;
+  /* background-color: black; */
+}
 
   .name {
     width: 100%;
@@ -441,7 +447,7 @@ p.text2 {
    } 
 
    body .portfolio {
-    height: 1250px;
+    /* height: 1250px; */
     display: block;
 }
 
