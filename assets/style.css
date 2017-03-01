@@ -48,7 +48,7 @@ h1, h2, h3, .name {
   }
 
 
-.banner a {
+.index a {
   text-decoration: none;
   color: #c6c6c6;
   padding: 0 9px;
@@ -239,6 +239,7 @@ footer {
   height: 54px;
   padding-top: 27px;
   font-size: 10px;
+  border-top: 5px solid #4AAAA5;
 }
 
 
@@ -323,7 +324,19 @@ p.text2 {
 
 
 @media screen and (max-width: 768px) {
-  body 
+   
+
+  .fixed-size-container {
+    justify-content: flex-start;
+    height: 1250px;
+  }
+
+
+
+  .fixed-size {
+    padding: 0;
+  }
+
 
   .contentCanvas {
     display: block;
@@ -332,6 +345,15 @@ p.text2 {
     height: 800px;
   }
   
+    .portfolio {
+    display: inline-flex;
+    width: 304px;
+    height: auto;
+    margin-left: 0;
+    /* margin-top: 10px; */
+    padding-top: 1px;
+  }
+
   .aboutMe {
     width: 100%;
     margin: 0 auto 20px 0;
@@ -352,11 +374,17 @@ p.text2 {
 
   .connect {
     /* clear: both; */
-    width: 100%;
+    /* width: 100%; */
     float: left;
     /* text-align: left; */
     /* align-content: center; */
-    }
+    padding: 0;
+    /* top: 40; */
+    /* position: relative; */
+    margin-right: 0;
+    /* display: flex; */
+    justify-content: flex-start;
+}
 
     .socialButtons {
     justify-content: flex-start;
@@ -365,6 +393,11 @@ p.text2 {
   .icons {
     padding: 0 3px;
   }
+
+ .connectPortfolio {
+  width: auto;
+  height: auto;
+ } 
 }
 
 @media screen and (max-width: 640px) {
@@ -403,6 +436,11 @@ p.text2 {
     height: 1200px;
    } 
 
+   body .portfolio {
+    height: 1250px;
+    display: block;
+}
+
   .banner {
     display: flex;
     min-width: 980px;
@@ -424,6 +462,9 @@ p.text2 {
     color: gray;
     font-size: 18px;
     padding-top: 10px;
+}
+.portfolio h1 {
+  display: block;
 }
 
 }
